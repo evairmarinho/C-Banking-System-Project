@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="APS BANCO" />
+		<Option execution_dir="C:/Users/Evair Marinho/Documents/" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/APS BANCO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/APS BANCO" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="banco.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="banco.h" />
+		<Unit filename="cliente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cliente.h" />
+		<Unit filename="conta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conta.h" />
+		<Unit filename="gerenciaClientes .c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gerenciaClientes.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="validações.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="validações.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

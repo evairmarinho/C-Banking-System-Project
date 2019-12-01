@@ -1,0 +1,233 @@
+# depslib dependency file v1.0
+1573350784 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 06-11 - copia\cliente.c
+	"cliente.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573350228 c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 06-11 - copia\cliente.h
+
+1573445252 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 06-11 - copia\conta.c
+	"conta.h"
+	"banco.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573350958 c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 06-11 - copia\conta.h
+	"cliente.h"
+
+1573444936 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 06-11 - copia\main.c
+	<time.h>
+	"gerenciaClientes.h"
+	"banco.h"
+	"cliente.h"
+	"conta.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573432971 c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 06-11 - copia\gerenciaclientes.h
+	"cliente.h"
+
+1573443513 c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 06-11 - copia\banco.h
+	"conta.h"
+
+1573445206 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 06-11 - copia\banco.c
+	"banco.h"
+	"gerenciaClientes.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1573443155 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 06-11 - copia\gerenciaclientes .c
+	"gerenciaClientes.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573468660 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 10-11\banco.c
+	"banco.h"
+	"gerenciaClientes.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1573466536 c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 10-11\banco.h
+	"conta.h"
+
+1573350958 c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 10-11\conta.h
+	"cliente.h"
+
+1573350228 c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 10-11\cliente.h
+
+1573432971 c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 10-11\gerenciaclientes.h
+	"cliente.h"
+
+1573350784 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 10-11\cliente.c
+	"cliente.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573467712 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 10-11\conta.c
+	"conta.h"
+	"banco.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573443155 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 10-11\gerenciaclientes .c
+	"gerenciaClientes.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573467945 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\aps banco c 10-11\main.c
+	<time.h>
+	"gerenciaClientes.h"
+	"banco.h"
+	"cliente.h"
+	"conta.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573507516 source:c:\users\alunop2\downloads\aps banco c 10-11\banco.c
+	"banco.h"
+	"gerenciaClientes.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1573506593 c:\users\alunop2\downloads\aps banco c 10-11\banco.h
+	"conta.h"
+
+1573506484 c:\users\alunop2\downloads\aps banco c 10-11\conta.h
+	"cliente.h"
+
+1573506484 c:\users\alunop2\downloads\aps banco c 10-11\cliente.h
+
+1573506484 c:\users\alunop2\downloads\aps banco c 10-11\gerenciaclientes.h
+	"cliente.h"
+
+1573506484 source:c:\users\alunop2\downloads\aps banco c 10-11\cliente.c
+	"cliente.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573508378 source:c:\users\alunop2\downloads\aps banco c 10-11\conta.c
+	"conta.h"
+	"banco.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573506484 source:c:\users\alunop2\downloads\aps banco c 10-11\gerenciaclientes .c
+	"gerenciaClientes.h"
+	<stdio.h>
+	<stdlib.h>
+
+1573508302 source:c:\users\alunop2\downloads\aps banco c 10-11\main.c
+	<time.h>
+	"gerenciaClientes.h"
+	"banco.h"
+	"cliente.h"
+	"conta.h"
+	<stdio.h>
+	<stdlib.h>
+
+1574615821 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\banco.c
+	"banco.h"
+	"gerenciaClientes.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1573506594 c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\banco.h
+	"conta.h"
+
+1573506486 c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\conta.h
+	"cliente.h"
+
+1573506486 c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\cliente.h
+
+1574615300 c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\gerenciaclientes.h
+	"cliente.h"
+
+1574618887 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\cliente.c
+	"cliente.h"
+	<stdio.h>
+	<stdlib.h>
+
+1574626762 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\conta.c
+	"conta.h"
+	"banco.h"
+	<stdio.h>
+	<stdlib.h>
+
+1574626139 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\gerenciaclientes .c
+	"gerenciaClientes.h"
+	"validaÁıes.h"
+	<stdio.h>
+	<stdlib.h>
+
+1574621621 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\main.c
+	<time.h>
+	"gerenciaClientes.h"
+	"banco.h"
+	"cliente.h"
+	"conta.h"
+	<stdio.h>
+	<stdlib.h>
+
+1574626116 c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\validaÁıes.h
+
+1574626139 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 11-11 praticamente finalizada\validaÁıes.c
+	"validaÁıes.h"
+
+1574735395 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\banco.c
+	"banco.h"
+	"gerenciaClientes.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1573506594 c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\banco.h
+	"conta.h"
+
+1573506486 c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\conta.h
+	"cliente.h"
+
+1573506486 c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\cliente.h
+
+1574615300 c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\gerenciaclientes.h
+	"cliente.h"
+
+1574734727 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\cliente.c
+	"cliente.h"
+	<stdio.h>
+	<stdlib.h>
+
+1574735707 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\conta.c
+	"conta.h"
+	"banco.h"
+	<stdio.h>
+	<stdlib.h>
+
+1575212034 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\gerenciaclientes .c
+	"gerenciaClientes.h"
+	"validaÁıes.h"
+	<stdio.h>
+	<stdlib.h>
+
+1575217834 c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\validaÁıes.h
+
+1575217800 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\main.c
+	<time.h>
+	"gerenciaClientes.h"
+	"banco.h"
+	"cliente.h"
+	"conta.h"
+	<stdio.h>
+	<stdlib.h>
+
+1575217800 source:c:\users\evair marinho\documents\ci ncias da computa«√o uam\2∫ semestre\aps banco c 24-11\validaÁıes.c
+	"validaÁıes.h"
+
