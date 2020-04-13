@@ -1,6 +1,6 @@
-*.o*
-.layout
+*.o .layout
 *.depend
 # generated directories
 bin/
-obj/
+obj/*
+
