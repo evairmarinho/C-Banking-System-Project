@@ -1,5 +1,5 @@
 # ProjetoBancoC
-Projeto de sistema bancário desenvolvido na linguagem C, com interface de linha de comando (CLI).
+Projeto de sistema bancário desenvolvido na linguagem C, com interface de linha de comando (CLI), utilizando a IDE CodeBlocks.
 
 # Integrantes
 
