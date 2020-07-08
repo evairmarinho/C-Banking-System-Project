@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//ATUALIZADO DESDE 01/12/2019
+//ATUALIZADO DESDE 07/07/2020
 void menu() // função para interface de menu
 {
 
@@ -43,7 +43,7 @@ int main()
             adicionarConta(getConta1());
             break;
         case '3':
-            if(numeroConta>0)
+            if(numeroConta > 0)
             {
                 listarContas();
             }
@@ -53,12 +53,12 @@ int main()
             }
             break;
         case '4':
-            if(numeroConta>0)
+            if(numeroConta > 0)
             {
                 printf("Digite o numero da sua conta\n");
                 int num;
                 scanf("%i",&num);
-                if(existeConta(num)==1)
+                if(existeConta(num) == 1)
                 {
                     pesquisarConta(num);
                 }
@@ -70,16 +70,16 @@ int main()
             break;
         case '5':
 
-            if(numeroConta>0)
+            if(numeroConta > 0)
             {
                 printf("Digite o numero da sua conta\n");
                 int num3;
                 scanf("%i",&num3);
 
-                if(existeConta(num3)==1)
+                if(existeConta(num3) == 1)
                 {
                     TConta conta;
-                    conta.numero=num3;
+                    conta.numero = num3;
                     printf("Digite o valor de deposito\n");
                     float quantia;
                     scanf("%f",&quantia);
@@ -92,18 +92,18 @@ int main()
             }
             break;
         case '6':
-            if(numeroConta>0)
+            if(numeroConta > 0)
             {
                 printf("Digite o numero da sua conta\n");
                 int num;
                 scanf("%i",&num);
-                if(existeConta(num)==1)
+                if(existeConta(num) == 1)
                 {
                     printf("Digite o valor de saque\n");
                     float valor;
                     scanf("%f",&valor);
                     TConta conta;
-                    conta.numero=num;
+                    conta.numero = num;
                     debitar(conta,valor);
                 }
             }
@@ -113,26 +113,26 @@ int main()
             }
             break;
         case '7':
-            if(numeroConta>0)
+            if(numeroConta > 0)
             {
-                if(numeroConta>1)
+                if(numeroConta > 1)
                 {
                     printf("Digite o numero da sua conta\n");
                     int num;
                     scanf("%i",&num);
-                    if(existeConta(num)==1)
+                    if(existeConta(num) == 1)
                     {
                         TConta conta1;
-                        conta1.numero=num;
+                        conta1.numero = num;
                         printf("Digite o numero da conta que terá o valor transferido\n");
                         int num2;
                         scanf("%i",&num2);
-                        if(existeConta(num2)==1)
+                        if(existeConta(num2) == 1)
                         {
-                            if(num2!=num)
+                            if(num2 != num)
                             {
                                 TConta conta2;
-                                conta2.numero=num2;
+                                conta2.numero = num2;
                                 float valor;
                                 printf("Digite a quantia que você quer transferir\n");
                                 scanf("%f",&valor);
@@ -157,12 +157,12 @@ int main()
             }
             break;
         case '8':
-            if(numeroConta>0)
+            if(numeroConta > 0)
             {
                 printf("Digite o numero da conta que deseja remover\n");
                 int remover;
                 scanf("%i",&remover);
-                if(existeConta(remover)==1)
+                if(existeConta(remover) == 1)
                 {
 
                     removerConta(remover);
@@ -180,12 +180,12 @@ int main()
             break;
         default:
             printf("\nOPCAO INVALIDA!!!\n\n"); //mensagemn de erro
-            printf("Digite numeros de 1 a 9\n\n"); //instrução para o usuário
+            printf("Digite numeros de 1 a 9\n\n"); //recomendação para o usuário
 
 
         }
     }
-    while (opcao!='9'); // o loop rodará enquanto a opção não for igual a de número 9 - (Saída do Programa)
+    while (opcao != '9'); // o loop rodará enquanto a opção não for igual a de número 9 - (Saída do Programa)
     return 0;
 }
 

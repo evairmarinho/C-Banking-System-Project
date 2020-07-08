@@ -6,7 +6,7 @@
 #include<time.h>
 
 
-numeroConta=0;
+numeroConta = 0;
 
 
 TData dataHoje()
@@ -14,16 +14,16 @@ TData dataHoje()
     TData dataT;
     time_t dataTime;
     time(&dataTime);
-    struct tm*data=localtime(&dataTime);
-    dataT.dia= data->tm_mday;
-    dataT.mes = data->tm_mon +1;
-    dataT.ano = data->tm_year+1900;
+    struct tm*data = localtime(&dataTime);
+    dataT.dia = data -> tm_mday;
+    dataT.mes = data -> tm_mon + 1;
+    dataT.ano = data -> tm_year + 1900;
     return dataT;
 }
 
 void adicionarConta(TConta conta)
 {
-    if(totalClientes==0)
+    if(totalClientes == 0)
     {
         printf("\nNAO EXISTEM CLIENTES CADASTRADOS \nCADASTRE UM CLIENTE PRIMEIRO\n\n");
     }
@@ -34,22 +34,22 @@ void adicionarConta(TConta conta)
         char cpfCad[12];
         fflush(stdin);
         scanf("%[^\n]",cpfCad);
-        if(existeCPF(cpfCad)==1)
+        if(existeCPF(cpfCad) == 1)
         {
-            if(existeCPFconta(cpfCad)==0)
+            if(existeCPFconta(cpfCad) == 0)
             {
-                conta.numero=numeroConta;
+                conta.numero = numeroConta;
                 printf("\nCONTA %i CRIADA \n\n",conta.numero);
-                conta.cliente=getClienteCPF(cpfCad);
+                conta.cliente = getClienteCPF(cpfCad);
                 printf("CLIENTE: %s \nNUMERO DA CONTA: %i \n",conta.cliente.nome,numeroConta);
                 conta.saldo=10;
                 printf("SALDO DA CONTA: R$ %.2f \n",conta.saldo);
                 conta.ativa=1;
-                conta.dataAbertura.dia=dataHoje().dia;
-                conta.dataAbertura.ano=dataHoje().ano;
-                conta.dataAbertura.mes=dataHoje().mes;
+                conta.dataAbertura.dia = dataHoje().dia;
+                conta.dataAbertura.ano = dataHoje().ano;
+                conta.dataAbertura.mes = dataHoje().mes;
                 printf("DATA DE ABERTURA: %i/%i/%i \n\n",conta.dataAbertura.dia,conta.dataAbertura.mes,conta.dataAbertura.ano);
-                contas[numeroConta]=conta;
+                contas[numeroConta] = conta;
                 numeroConta++;
             }
         }
@@ -64,7 +64,7 @@ void adicionarConta(TConta conta)
 void listarContas()
 {
 
-    for (int i=0; i<numeroConta; i++)
+    for (int i = 0; i < numeroConta; i++)
     {
         imprimirConta(contas[i]);
     }
@@ -77,9 +77,9 @@ void pesquisarConta(int numero)
 
     for(int i=0; i<numeroConta; i++)
     {
-        if(contas[numero].numero==contas[i].numero)
+        if(contas[numero].numero == contas[i].numero)
         {
-            if(contas[numero].ativa==1)
+            if(contas[numero].ativa == 1)
             {
 
                 imprimirConta(contas[numero]);
@@ -101,10 +101,10 @@ void pesquisarConta(int numero)
 int existeConta(int num)
 {
 
-    int controle=0;
+    int controle = 0;
     for(int i=0; i<numeroConta; i++)
     {
-        if(contas[i].numero==num)
+        if(contas[i].numero == num)
         {
 
             return 1;
@@ -115,7 +115,7 @@ int existeConta(int num)
         }
 
     }
-    if(controle==numeroConta)
+    if(controle == numeroConta)
     {
         printf("NAO EXISTE NENHUMA CONTA COM ESSE NUMERO\n");
         return 0;
@@ -125,10 +125,10 @@ int existeConta(int num)
 }
 int existeCPFconta(char cpfs[12])
 {
-    int controle=0;
+    int controle = 0;
     for(int i=0; i<numeroConta; i++)
     {
-        if(strcmp(contas[i].cliente.cpf,cpfs)==0)
+        if(strcmp(contas[i].cliente.cpf,cpfs) == 0)
         {
             printf("JA EXISTE UMA CONTA COM ESSE CPF NO REGISTRO\n");
             return 1;
@@ -139,7 +139,7 @@ int existeCPFconta(char cpfs[12])
         }
 
     }
-    if(controle==numeroConta)
+    if(controle == numeroConta)
     {
 
         return 0;
@@ -161,9 +161,9 @@ int removerConta(int numero)
 
     for(int i=0; i<numeroConta; i++)
     {
-        if(numero==contas[i].numero)
+        if(numero == contas[i].numero)
         {
-            if(contas[i].ativa==0)
+            if(contas[i].ativa == 0)
             {
 
 
@@ -172,17 +172,17 @@ int removerConta(int numero)
             }
             else
             {
-                if(contas[i].saldo==0.00)
+                if(contas[i].saldo == 0.00)
                 {
 
                     printf("CONTA REMOVIDA\n");
-                    contas[i].ativa=0;
+                    contas[i].ativa = 0;
                     return 1;
                 }
                 else
                 {
                     printf("O SALDO PRECISA SER IGUAL A 0\n");
-                    contas[i].ativa=1;
+                    contas[i].ativa = 1;
                     return 0;
                 }
             }

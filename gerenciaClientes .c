@@ -9,25 +9,25 @@ void adicionarCliente(TCliente cliente)
     printf("Digite seu nome \n");
     fflush(stdin);
     gets(cliente.nome);
-    if(validaString(cliente.nome)==1)
+    if(validaString(cliente.nome) == 1)
     {
         printf("Digite seu CPF:\n");
         fflush(stdin);
         gets(cliente.cpf);
-        if(validaNumeros(cliente.cpf)==1)
+        if(validaNumeros(cliente.cpf) == 1)
         {
-            if(existeCPF(cliente.cpf)==0)
+            if(existeCPF(cliente.cpf) == 0)
             {
                 printf("Digite seu telefone (apenas os numeros e com o ddd)\n");
                 fflush(stdin);
                 scanf("%[^\n]",cliente.telefone);
-                if(validaNumeros(cliente.telefone)==1)
+                if(validaNumeros(cliente.telefone) == 1)
                 {
                     clientes[totalClientes]=cliente;
                     totalClientes++;
                 }
             }
-            else if(existeCPF(cliente.cpf)==1)
+            else if(existeCPF(cliente.cpf) == 1)
             {
                 printf("\nCPF JA CONSTA NO REGISTRO DE CLIENTES\n\n");
             }
@@ -49,7 +49,7 @@ TCliente getClienteCPF(char cpfs[12])
     {
 
 
-        if(strcmp(cpfs,clientes[i].cpf)==0)
+        if(strcmp(cpfs,clientes[i].cpf) == 0)
         {
             return clientes[i];
         }
@@ -59,10 +59,10 @@ TCliente getClienteCPF(char cpfs[12])
 int existeCPF(char cpf[12])
 {
 
-    int controle=0;
+    int controle = 0;
     for(int i=0; i<totalClientes; i++)
     {
-        if(strcmp(clientes[i].cpf,cpf)==0)
+        if(strcmp(clientes[i].cpf,cpf) == 0)
         {
 
             return 1;
@@ -74,7 +74,7 @@ int existeCPF(char cpf[12])
         }
 
     }
-    if(controle==totalClientes)
+    if(controle == totalClientes)
     {
         //ainda não existem clientes com esse cpf
         return 0;

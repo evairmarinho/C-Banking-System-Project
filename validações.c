@@ -2,7 +2,7 @@
 
 int validLetra(char var)
 {
-    if((var>='a'&&var<='z')||(var>='A'&&var<='Z'))
+    if((var >= 'a' && var <= 'z') || (var >= 'A' && var <= 'Z'))
     {
         return 1;
     }
@@ -13,7 +13,7 @@ int validLetra(char var)
 
 int validaUmNum(char num)
 {
-    if(num>='0'&&num<='9')
+    if(num >= '0' && num <= '9')
     {
         return 1;
     }
@@ -41,9 +41,9 @@ int validaNumeros(char num[12])
 int validaString(char var[50])
 {
     int i=0;
-    while(var[i]!='\0')
+    while(var[i] != '\0')
     {
-        if(validLetra(var[i])==0)
+        if(validLetra(var[i]) == 0)
         {
             return 0;
         }
