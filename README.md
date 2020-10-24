@@ -1,6 +1,6 @@
 # C-Banking-System-Project
 
-Banking system project developed in C language, with command line interface (CLI), using Code::Blocks IDE.
+Banking system project developed in college in C language, with command line interface (CLI), using Code::Blocks IDE.
 
 # Members
 
