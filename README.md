@@ -1,4 +1,4 @@
-# ProjetoBancoC
+# C-Banking-System-Project
 
 Banking system project developed in C language, with command line interface (CLI), using Code::Blocks IDE.
 
